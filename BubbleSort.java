@@ -1,5 +1,3 @@
-// http://www.algolist.net/Algorithms/Sorting/Bubble_sort
-
 import java.util.Arrays;
 import java.util.Random;
 
