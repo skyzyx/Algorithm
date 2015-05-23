@@ -26,10 +26,8 @@ public class QuickSort {
             }
         }
         
-        if (low < j)
-            myQuickSort(A, low, j);
-        if (high > i)
-            myQuickSort(A, i, high);        
+        myQuickSort(A, low, j);
+        myQuickSort(A, i, high);        
     }
     
     public static void main(String[] args) {
