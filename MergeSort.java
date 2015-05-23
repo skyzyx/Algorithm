@@ -11,3 +11,17 @@ public static void main(String[] args) {
 	mergeSort(data);
 	System.out.println(Arrays.toString(data));
 }
+
+public static void mergeSort(int[] nums, int l, int r) {
+	if (l > r)
+		return;
+
+	int m = (l + r) / 2;
+	mergeSort(nums, l, m);
+	mergeSort(nums, m+1, r);
+	merge(nums, l, m, r);
+}
+
+public static void merge(int[] nums, int l, int m, int r) {
+	
+}
