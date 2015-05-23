@@ -3,7 +3,7 @@ public class BinarySearch {
         if (L > R)
             return -1;
         
-        int M = L + (R - L) / 2;
+        int M = (L + R) / 2;
         if (a[M] == value) {
             return M;
         } else if (a[M] > value) {
